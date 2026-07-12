@@ -28,3 +28,16 @@ for sub in marks:
         
 print("Total Pass Count: ",pass_count)
 print("Total Fail Count: ",fail_count)
+
+if fail_count <= 1:
+        print("You are failed!")
+elif average >= 90:
+    print("You are passed with grade A")
+elif average >= 80:
+    print("You are passed with grade B")
+elif average >= 60:
+    print("You are passed with grade C")
+elif average >= 40:
+    print("You are passed with grade D")
+elif average < 40:
+    print("You are failed!")
